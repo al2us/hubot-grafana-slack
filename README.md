@@ -32,10 +32,15 @@ Details:
 
 - If you need storage grafana snapshots in S3, you need to install aws cli and set variables:
 
+
     HUBOT_GRAFANA_S3_BUCKET=mybucket
+    
     HUBOT_GRAFANA_S3_ACCESS_KEY_ID=yyyyyyyy123456XYZ
+    
     HUBOT_GRAFANA_S3_SECRET_ACCESS_KEY=aBcyyyyyyyyyyyyyyyyyyyyy
+    
     HUBOT_GRAFANA_S3_PREFIX=graphs
+    
     HUBOT_GRAFANA_S3_REGION=us-standard
 
 - Your grafana need render image plugin
