@@ -5,9 +5,14 @@ Hubot on alpine, Used to slack, grafana and hubot integration
 Requeriments:
 
 -First, you need add hubot app in slack.
+
 -Generate token slack inside config hubot
+
 -Generate api key inside config hubot
+
 - API KEY must be set on APIKEYS grafana section, this action will be return a token that you need to set on docker file ENV API KEY Section
+
+
 ##########################################
 
 Run Docker:
