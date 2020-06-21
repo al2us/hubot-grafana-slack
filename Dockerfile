@@ -1,13 +1,13 @@
 FROM alpine
 
-# If you want to upload grafana screeshoots in AWS S3 then install AWS CLI (uncomment line above)
+# If you want to upload grafana screeshoots in AWS S3 then install AWS CLI (uncomment line below)
 #ENV AWSCLI_VERSION "1.17.0"
 
 # Dependencies
 RUN apk update && apk upgrade \
   && apk add redis \
  # If you want to upload grafana screeshoots in AWS S3 then install AWS CLI. (You must set environments as secret key, accesskey, bucket, prefix)
- # Uncomment lines above 
+ # Uncomment lines below
   #&& apk add python3 \
   #&& apk add python3-dev \
   #&& apk add py-pip \
